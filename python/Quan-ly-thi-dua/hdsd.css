@@ -1,0 +1,23 @@
+#hdsd_popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#Close {
+    float: right;
+    cursor: pointer;
+    color: rgb(128, 128, 128);
+    font-size: 18px;
+    font:arial;
+}
+#nd {
+    font: arial, sans-serif;
+    font-size: 18px;
+    color: #000;
+}
