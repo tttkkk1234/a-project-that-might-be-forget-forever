@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href ="style.css">
+        <link rel="stylesheet" href="hdsd.css">
+        <title>Quản lý thi đua</title>
+    </head>
+    <body>
+        <div class="main">
+            <button id="cap-nhat-thi-dua-hang-tuan">Cập nhật thi dua hàng tuần</button>
+            <button id="danh-sach-nhan-vien-toan-truong">Danh sách nhân viên nhà trường</button>
+            <button id="danh-sach-hoc-sinh-toan-truong">Danh sách học sinh toàn trường</button>
+            <button id="chi-tiet-tuan-hoc">Chi tiết tuần học (thời gian từng tuần)</button>
+            <button id="hdsd">Hướng dẫn sử dụng phần mềm</button>
+          </div>
+    <div id="hdsd_popup">
+        <span id="Close">X</span>
+        <div id="nd">
+            <pre id="ndhd">
+                HƯỚNG DẪN SỬ DỤNG PHẦN MỀM QUẢN LÝ THI ĐUA
+
+                1. ĐĂNG NHẬP HOẶC ĐĂNG KÝ:
+                   - Khi mở phần mềm, bạn sẽ được yêu cầu chọn trường.
+                   - Nếu trường đã tồn tại, bạn có thể đăng nhập bằng tài khoản quản trị viên.
+                   - Nếu trường chưa tồn tại, bạn cần nhập thông tin trường và đăng ký tài khoản quản trị viên.
+        
+                2. CHỨC NĂNG DÀNH CHO QUẢN TRỊ VIÊN:
+                   - Tạo tài khoản thành viên:
+                     + Quản trị viên có thể tạo tài khoản cho các thành viên khác.
+                     + Mỗi tài khoản cần có tên đăng nhập và mật khẩu (mật khẩu phải có ít nhất 8 ký tự, bao gồm cả chữ và số).
+        
+                   - Quản lý thi đua:
+                     + Cập nhật lỗi vi phạm: Chọn tuần, lớp, lỗi vi phạm, số lượng lỗi, và điểm trừ để cập nhật.
+                     + Xem danh sách học sinh theo lớp hoặc toàn trường.
+                     + Xếp hạng thi đua: Xem xếp hạng các lớp dựa trên điểm thi đua.
+        
+                   - In ấn báo cáo:
+                     + Xuất báo cáo thi đua theo tuần, tháng, học kỳ, hoặc năm.
+                     + Xuất chi tiết thi đua theo lớp hoặc toàn trường.
+        
+                   - Tìm kiếm thông tin:
+                     + Tra cứu học sinh theo các tiêu chí như dân tộc, thôn, làng, tổ dân phố, hoặc tên.
+        
+                3. CHỨC NĂNG DÀNH CHO THÀNH VIÊN:
+                   - Xem và quản lý thi đua:
+                     + Xem danh sách lỗi vi phạm, điểm thi đua của lớp.
+                     + Xem xếp hạng thi đua của lớp và toàn trường.
+        
+                   - Tìm kiếm thông tin:
+                     + Tra cứu thông tin học sinh theo các tiêu chí như dân tộc, thôn, làng, tổ dân phố, hoặc tên.
+        
+                4. CÁCH SỬ DỤNG CÁC NÚT CHỨC NĂNG:
+                   - Mỗi giao diện sẽ có các nút chức năng tương ứng.
+                   - Nhấn vào nút để thực hiện thao tác mong muốn.
+                   - Ví dụ: Nhấn "Cập nhật lỗi" để thêm lỗi vi phạm, hoặc "Xuất ra Word" để lưu báo cáo.
+        
+                5. LƯU Ý:
+                   - Đảm bảo nhập đầy đủ và chính xác thông tin trước khi lưu.
+                   - Kiểm tra kỹ các báo cáo trước khi in ấn.
+                   - Liên hệ quản trị viên nếu gặp vấn đề trong quá trình sử dụng.
+        
+                CHÚC BẠN SỬ DỤNG PHẦN MỀM HIỆU QUẢ!
+            </pre>
+        </div>
+    </div>
+            <button id="quay-lai-trang-chu">Quay lại trang chủ</button>
+        </div>
+        <script src="index.js"></script>
+        <script src="hdsd.js"></script>
+    </body>
+</html>

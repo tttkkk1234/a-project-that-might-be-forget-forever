@@ -1,0 +1,19 @@
+html {
+    background-image: url("../../build/backimg.jpg");
+    background-size: cover;        
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+    background-position: center;   
+  }
+#main {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+body {
+    background-image: url(../python/index.html);
+}  
